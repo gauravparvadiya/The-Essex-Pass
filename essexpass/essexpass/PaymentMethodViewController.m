@@ -35,11 +35,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    //Sand Box
-//    [PayPalMobile initializeWithClientIdsForEnvironments:@{
-//                                                           PayPalEnvironmentProduction : @"EHh1k3zPqoe5i2RC9tXRjW-eQH_kPQq5JoXbtXH-Eca-lGG6dpRko-k6jYm6waD86KTCWgzW5Z86r6QA",
-//    
-//                                                           PayPalEnvironmentSandbox : @"Aa79vU7I6YtWQ44fBougCdOwcjSS7DeLdW8wf-Ukdj-hgEyg9xDAcpkH-dBywnzdJDTFWvEevf2Pnz6Z"}];
+    
     
     //Live
     [PayPalMobile initializeWithClientIdsForEnvironments:@{
