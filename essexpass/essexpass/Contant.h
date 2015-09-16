@@ -16,63 +16,63 @@
 #define ISIPHONE6P (([[UIScreen mainScreen] bounds].size.height == 736) ? 1 : 0)
 
 #pragma mark - ServerURL
-#define LogoURL             @"http://essexpass.com/gp/Service/essexpass/log.png"
-#define CORESERVICEPATH		@"http://essexpass.com/gp/Service/essexpass/service/"
-#define SERVICEPATH         @"http://iblinfotechapn.com/essexpass/index.php/user_regi_detail/"
+#define LogoURL             @"http://Web API URL/log.png"
+#define CORESERVICEPATH		@"http://Web API URL/service/"
+#define SERVICEPATH         @"http://Web API URL/index.action/user_regi_detail/"
 
-#define PRIVACYPOLICY       @"https://essexpass.com/gp/Service/essexpass/PrivacyPolicy/privacy.html"
-#define TERMSANDCONDITION   @"https://essexpass.com/gp/Service/essexpass/PrivacyPolicy/terms.html"
+#define PRIVACYPOLICY       @"https://Web API URL/PrivacyPolicy/privacy.html"
+#define TERMSANDCONDITION   @"https://Web API URL/PrivacyPolicy/terms.html"
 
 #pragma mark - Login === Registation === ManageAccount
-#define LOGIN               CORESERVICEPATH       @"login.php"
-#define REGISTER            CORESERVICEPATH       @"register.php"
-#define CHECKEMAIL          CORESERVICEPATH       @"checkemail.php"
-#define FORGOTPASSWORD      CORESERVICEPATH       @"forgotpassword.php"
-#define CHANGEPASSWORD      CORESERVICEPATH       @"changepassword.php"
-#define EDITPROFILE         CORESERVICEPATH       @"editprofile.php"
-#define APPROVEDUSER        CORESERVICEPATH       @"approveUser.php"
-#define RESENDAUTHCODE      CORESERVICEPATH       @"resendAuthCode.php"
-#define REGISTERDEVICE      CORESERVICEPATH       @"updatedeviceudid.php"
+#define LOGIN               CORESERVICEPATH       @"login.action"
+#define REGISTER            CORESERVICEPATH       @"register.action"
+#define CHECKEMAIL          CORESERVICEPATH       @"checkemail.action"
+#define FORGOTPASSWORD      CORESERVICEPATH       @"forgotpassword.action"
+#define CHANGEPASSWORD      CORESERVICEPATH       @"changepassword.action"
+#define EDITPROFILE         CORESERVICEPATH       @"editprofile.action"
+#define APPROVEDUSER        CORESERVICEPATH       @"approveUser.action"
+#define RESENDAUTHCODE      CORESERVICEPATH       @"resendAuthCode.action"
+#define REGISTERDEVICE      CORESERVICEPATH       @"updatedeviceudid.action"
 
 #pragma mark - Event
-#define GETEVENT             CORESERVICEPATH       @"newtestgetevent.php"
-#define GETPOPULAREVENT      CORESERVICEPATH       @"getpopularevent.php"
-#define GETEVENTCATEGORY     CORESERVICEPATH       @"getcategoryevent.php"
-//#define GETEVENT           CORESERVICEPATH       @"getevent.php"
-#define GETEVENTDATELIST     CORESERVICEPATH       @"geteventDateList.php"
-#define GETEVENTBYDATE       CORESERVICEPATH       @"displaydateevent.php"
-#define ADDFAVOURITE         CORESERVICEPATH       @"addfavourite.php"
-#define WRITEREVIEWEVENT     CORESERVICEPATH       @"insertreviewevent.php"
-#define REVIEWEVENT          CORESERVICEPATH       @"displayrevieweventdetail.php"
-#define GETNEARBYEVENT       CORESERVICEPATH       @"getnearbyevent.php"
-#define GETFAVEVENT          CORESERVICEPATH       @"getFavouriteEvent.php"
-#define GETCATEGORY          CORESERVICEPATH       @"getcategory.php"
+#define GETEVENT             CORESERVICEPATH       @"newtestgetevent.action"
+#define GETPOPULAREVENT      CORESERVICEPATH       @"getpopularevent.action"
+#define GETEVENTCATEGORY     CORESERVICEPATH       @"getcategoryevent.action"
+//#define GETEVENT           CORESERVICEPATH       @"getevent.action"
+#define GETEVENTDATELIST     CORESERVICEPATH       @"geteventDateList.action"
+#define GETEVENTBYDATE       CORESERVICEPATH       @"displaydateevent.action"
+#define ADDFAVOURITE         CORESERVICEPATH       @"addfavourite.action"
+#define WRITEREVIEWEVENT     CORESERVICEPATH       @"insertreviewevent.action"
+#define REVIEWEVENT          CORESERVICEPATH       @"displayrevieweventdetail.action"
+#define GETNEARBYEVENT       CORESERVICEPATH       @"getnearbyevent.action"
+#define GETFAVEVENT          CORESERVICEPATH       @"getFavouriteEvent.action"
+#define GETCATEGORY          CORESERVICEPATH       @"getcategory.action"
 
 #pragma mark - Deal
-#define GETDEALS             CORESERVICEPATH       @"getdeal.php"
-#define GETDEALCATEGORY      CORESERVICEPATH       @"getcategorydeal.php"
-#define DATELIST             CORESERVICEPATH       @"displaydatelist.php"
-#define WRITEREVIEWDEAL      CORESERVICEPATH       @"insertreview.php"
-#define REVIEWDEAL           CORESERVICEPATH       @"displayreviewdetail.php"
-#define GETDEALINGROUP       CORESERVICEPATH       @"getdealcount.php"
-#define GETDEALINGROUPNEW    CORESERVICEPATH       @"getalldealInGroup.php"
-#define GETFAVDEAL           CORESERVICEPATH       @"getfavouritedeal.php"
+#define GETDEALS             CORESERVICEPATH       @"getdeal.action"
+#define GETDEALCATEGORY      CORESERVICEPATH       @"getcategorydeal.action"
+#define DATELIST             CORESERVICEPATH       @"displaydatelist.action"
+#define WRITEREVIEWDEAL      CORESERVICEPATH       @"insertreview.action"
+#define REVIEWDEAL           CORESERVICEPATH       @"displayreviewdetail.action"
+#define GETDEALINGROUP       CORESERVICEPATH       @"getdealcount.action"
+#define GETDEALINGROUPNEW    CORESERVICEPATH       @"getalldealInGroup.action"
+#define GETFAVDEAL           CORESERVICEPATH       @"getfavouritedeal.action"
 
 #pragma mark - Message === Contact Us === Activity
-#define MESSAGE             CORESERVICEPATH         @"getmessagelist.php"
-#define CONTACTUS           CORESERVICEPATH         @"send_mail.php"
-#define GETACTIVITY         CORESERVICEPATH         @"getPassHistory.php"
+#define MESSAGE             CORESERVICEPATH         @"getmessagelist.action"
+#define CONTACTUS           CORESERVICEPATH         @"send_mail.action"
+#define GETACTIVITY         CORESERVICEPATH         @"getPassHistory.action"
 
 #pragma mark - Membership
-#define INSERTMEMBER        CORESERVICEPATH         @"insert_member.php"
-#define CHECKMEMBER         CORESERVICEPATH         @"checkmember.php"
-#define CHECKSCHEME         CORESERVICEPATH         @"getCountScheme.php"
+#define INSERTMEMBER        CORESERVICEPATH         @"insert_member.action"
+#define CHECKMEMBER         CORESERVICEPATH         @"checkmember.action"
+#define CHECKSCHEME         CORESERVICEPATH         @"getCountScheme.action"
 
 #pragma mark - Recommended Business
-#define RECOMMENDEDBUSINESS CORESERVICEPATH         @"sendRecommandedBusiness.php"
+#define RECOMMENDEDBUSINESS CORESERVICEPATH         @"sendRecommandedBusiness.action"
 
 #pragma mark - Location
-#define UPDATELOCATION      CORESERVICEPATH         @"sentNotificationOfNearByDeal.php"
+#define UPDATELOCATION      CORESERVICEPATH         @"sentNotificationOfNearByDeal.action"
 
 
 #endif

@@ -43,8 +43,8 @@
     
     //Live
     [PayPalMobile initializeWithClientIdsForEnvironments:@{
-                                                           PayPalEnvironmentProduction : @"AZ4dkWdZCdL_AvHc2QdlTgHho1-CUuCub7wLFMFaGttzs86ET8OUloAoBmCA71OJyrk4sDUAexV46UBM",
-                                                           PayPalEnvironmentSandbox : @"Aa79vU7I6YtWQ44fBougCdOwcjSS7DeLdW8wf-Ukdj-hgEyg9xDAcpkH-dBywnzdJDTFWvEevf2Pnz6Z"}];
+                                                           PayPalEnvironmentProduction : @"1010",
+                                                           PayPalEnvironmentSandbox : @"1010"}];
 //
     self.title = @"The Essex Pass";
     

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A9B414BE-1F17-4A97-A6E1-AC6239ADD5DA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>The Essex Pass</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4802D892FF7497AA3365AAEF1666F737D7D68E7C</key>
+		<string>https://github.com/gauravparvadiya/The-Essex-Pass.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>essexpass/The Essex Pass.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4802D892FF7497AA3365AAEF1666F737D7D68E7C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gauravparvadiya/The-Essex-Pass.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4802D892FF7497AA3365AAEF1666F737D7D68E7C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4802D892FF7497AA3365AAEF1666F737D7D68E7C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TheEssexPass%20GITHUB%20Clone</string>
+		</dict>
+	</array>
+</dict>
+</plist>
